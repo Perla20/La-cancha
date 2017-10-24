@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: green;
+}
+#container{
+  width :98%;
+  height: 600px;
+  border: 5px solid white;
+  margin: 15px;
+}
+div{
+  display: inline-block;
+  width: 130px;
+  height: 250px;
+  border :5px solid white;
+}
+.arco1{
+  position: relative;
+  top: 180px;
+}
+.arco2{
+  position: relative;
+  float: right;
+  top: 180px;
+}
+.circulo{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  top: 170px;
+  left: 30%;
+}
+.pelota3{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 170px;
+  left: 30%;
+}
+.pelota1{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  right:  87%;
+}
+.pelota2{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 400px;
+  left: 85%;
+}
